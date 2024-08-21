@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Main Website */
+body {
+background-image: linear-gradient(#17BEBB,#908F8D);
+height: 107vh;
+font-family: sans-serif; 
+font-size: large;
+}
+
+
+
+/* Navbar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #17BEBB;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #908F8D;
+  }
+  
+  .active {
+    background-color: #CFF27E;
+}
+
+/* Review Page */
+.review1 {
+  border: 5px #000000;
+  border-style: solid;
+  margin: auto;
+}
+
+.review2 {
+margin: auto;
+border: #000000 5px;
+border-style: solid;
+}
+
+.review3 {
+ margin: auto;
+border: #000000 5px;
+border-style: solid;
+  }
+  
+/* Contact Form */
+form {
+ max-width: 500px;
+ margin: auto;
+ border: 5px;
+ border-style: solid;
+}
+
+input[type=text] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* Footer */
+footer {
+  min-height: 10vh;
+  margin: 0;
+  min-width: 100%;
+}
+
+.footer-details {
+  padding: 20px;
+  min-width: 100%;
+  font-size: 17px;
+}
+
+.footer-link:hover     {
+  text-decoration:none;
+  color: #908F8D;
+}
+
+.footer, .col-6 {
+  padding-left: 0;
+  padding-right: 0; 
+}
+
+.footer, .col-4  {
+  padding-left: 0;
+  padding-right: 0;
+}
+
