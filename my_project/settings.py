@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-w)t@vv5(iawhlx$%^=ku)il@&zy!e*jhc577#6q=op0&ma2u$!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-subjugatoro-switchedsad-5545yg8wse3.ws-eu115.gitpod.io']
+ALLOWED_HOSTS = ['8000-subjugatoro-switchedsad-5545yg8wse3.ws-eu115.gitpod.io',
+                  '.render.com',]
 
 
 # Application definition
