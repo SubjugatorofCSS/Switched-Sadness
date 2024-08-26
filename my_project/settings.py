@@ -32,6 +32,8 @@ DEBUG = False
 ALLOWED_HOSTS = ['8000-subjugatoro-switchedsad-5545yg8wse3.ws-eu115.gitpod.io',
                   '.render.com',]
 
+CSRF_TRUSTED_ORIGINS = ['https://*.codeinstitute-ide.net',
+'https://render.com', 'https://*gitpod.io']
 
 # Application definition
 
@@ -89,6 +91,7 @@ WSGI_APPLICATION = 'my_project.wsgi.application'
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
